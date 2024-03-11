@@ -1,4 +1,4 @@
-// home.ts
+
 import React from "react";
 
 const Home = ({
@@ -22,13 +22,13 @@ const Home = ({
           Cadastrar Cliente
         </button>
         <button
-          onClick={onShowListarClientes} // Adicione esta linha
+          onClick={onShowListarClientes} 
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >
           Listar Clientes
         </button>
         <button
-          onClick={onShowCalcularRota} // Certifique-se de que esta linha também está configurada corretamente
+          onClick={onShowCalcularRota} 
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >
           Calcular Rota

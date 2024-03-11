@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Sistema de Gerenciamento de Clientes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma aplicação web frontend construída com React, projetada para gerenciar clientes, calcular rotas e realizar outras tarefas relacionadas. A aplicação fornece uma interface amigável para interagir com um servidor backend, permitindo a gestão eficiente de clientes para empresas de limpeza.
 
-## Available Scripts
+## Tecnologias Utilizadas
 
-In the project directory, you can run:
+- **React**: Uma biblioteca JavaScript para construção de interfaces de usuário.
+- **Axios**: Uma biblioteca popular para fazer requisições HTTP.
+- **Tailwind CSS**: Um framework CSS de utilidade-primeiro para estilização rápida da aplicação.
+- **Web Vitals**: Uma biblioteca para medir métricas de desempenho web.
 
-### `npm start`
+## Estrutura do Projeto
+```src/
+├── App.js
+├── components/
+│   ├── Home.js
+│   ├── ListarClientes.js
+│   ├── CadastrarClientes.js
+│   └── CalcularRota.js
+├── index.js
+public/
+├── index.html
+└── ...
+package.json
+README.md
+.gitignore
+postcss.config.js
+tailwind.config.js
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Como Executar o Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone o repositório para sua máquina local.
+2. Navegue até a pasta do projeto.
+3. Instale as dependências com `npm install` ou `yarn install`.
+4. Inicie o servidor de desenvolvimento com `npm start` ou `yarn start`.
+5. Acesse `http://localhost:3000` no seu navegador para ver a aplicação em funcionamento.
 
-### `npm run build`
+## Funcionalidades
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Home**: A página inicial que permite navegar para outras funcionalidades do sistema.
+- **Listar Clientes**: Permite listar todos os clientes cadastrados, com opções de filtragem.
+- **Cadastrar Clientes**: Interface para cadastrar novos clientes.
+- **Calcular Rota**: Funcionalidade para calcular a rota mais eficiente entre os clientes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribuição
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contribuições são bem-vindas! Por favor, leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para detalhes sobre como contribuir para este projeto.
 
-### `npm run eject`
+## Licença
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.
